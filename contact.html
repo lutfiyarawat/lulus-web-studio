@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — LULUS Web Studio</title>
+<meta name="description" content="Request a quote from LULUS Web Studio — tell us about your project and get a scoped proposal.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">LULU<span>S</span> Web Studio</a>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a href="contact.html" class="btn btn-primary">Request a Quote</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary">Request a Quote</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="page-intro">
+  <div class="wrap">
+    <p class="eyebrow on-dark">// Contact</p>
+    <h1>Let's talk about your project.</h1>
+    <p class="lede" style="color:var(--mist);">Fill out the form below and we'll get back to you with next steps — usually within 1–2 business days.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap contact-layout">
+    <div>
+      <div class="form-success" id="form-success">
+        <strong>Thanks — your request is in.</strong> We'll be in touch within 1–2 business days to talk next steps.
+      </div>
+
+      <form id="quote-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="business">Business Name</label>
+            <input type="text" id="business" name="business">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="service">What do you need?</label>
+          <select id="service" name="service" required>
+            <option value="">Select an option</option>
+            <option>New Website (Starter)</option>
+            <option>New Website (Standard)</option>
+            <option>New Website (Premium)</option>
+            <option>Branding &amp; Identity Only</option>
+            <option>Ongoing Support / Retainer</option>
+            <option>Not Sure Yet</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="budget">Estimated Budget (ZAR)</label>
+          <select id="budget" name="budget">
+            <option value="">Select a range</option>
+            <option>Under R5,000</option>
+            <option>R5,000 – R15,000</option>
+            <option>R15,000 – R30,000</option>
+            <option>R30,000+</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Tell us about your project</label>
+          <textarea id="message" name="message" rows="5" placeholder="What does your business do, and what are you hoping your website achieves?" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit Request <span class="btn-arrow">→</span></button>
+        <p class="form-note">// This form currently sends a confirmation on-page only — connect it to Formspree or a similar service to receive submissions by email.</p>
+      </form>
+    </div>
+
+    <div>
+      <div class="contact-info-card">
+        <h3>Direct Contact</h3>
+        <div class="info-row">
+          <span class="label">Email</span>
+          <a href="mailto:hello@lulusweb.studio">hello@lulusweb.studio</a>
+        </div>
+        <div class="info-row">
+          <span class="label">Response Time</span>
+          <span>1–2 business days</span>
+        </div>
+        <div class="info-row">
+          <span class="label">Based In</span>
+          <span>South Africa · Working with clients everywhere</span>
+        </div>
+      </div>
+
+      <div style="margin-top:32px;">
+        <p class="eyebrow">// FAQ</p>
+        <div class="faq-item">
+          <details>
+            <summary>How long does a project take?</summary>
+            <p>Most Starter and Standard sites take 2–4 weeks from kickoff to launch, depending on how quickly content and feedback come back.</p>
+          </details>
+        </div>
+        <div class="faq-item">
+          <details>
+            <summary>Do I need to have my content ready?</summary>
+            <p>No — we can guide you through what's needed, and offer copywriting support as part of Premium packages.</p>
+          </details>
+        </div>
+        <div class="faq-item">
+          <details>
+            <summary>What happens after launch?</summary>
+            <p>You own your site outright. If you'd like ongoing updates and support, monthly retainer plans are available.</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo">LULU<span>S</span> Web Studio</div>
+        <p style="max-width:32ch; font-size:0.9rem;">Web design, development, and branding for businesses ready to upgrade their digital presence.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Site</h4>
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <a href="contact.html">Request a Quote</a>
+          <p>hello@lulusweb.studio</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 LULUS Web Studio. All rights reserved.</span>
+      <span>Built with LULUS Web Studio</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
